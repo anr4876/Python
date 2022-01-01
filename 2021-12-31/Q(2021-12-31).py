@@ -152,8 +152,8 @@ if  num2 == 1 :
 # 두번째 숫자를 입력해주세요 : 10
 # 30 - 10은 20입니다.
 
-num1 int(input("숫자를 입력해주세요 : "))
-num2 int(input("숫자를 입력해주세요 : "))
+num1 = int(input("숫자를 입력해주세요 : "))
+num2 = int(input("숫자를 입력해주세요 : "))
 
 if num2 > num1 :
     num3 = num1
