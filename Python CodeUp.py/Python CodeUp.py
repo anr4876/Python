@@ -1,4 +1,3 @@
-#
 
 print('Hello') 
 print('World')
@@ -91,5 +90,48 @@ num3 = int(num1) + int(num2)
 print(num3)
 
 #===================================
-num1, num2 = float(input().split())
+num1 = float(input())          #6026
+num2 = float(input())
 print(num1 + num2)
+
+#===================================
+num1 = input()                 #6027
+num2 = int(num1)
+print('%x' % num2)
+
+#===================================
+num1 = input()                 #6028
+num2 = int(num1)
+print('%X' %num2)
+
+#===================================
+num1 = input()                 #6029
+num2 = int(num1, 16)
+print('%o' % num2)
+
+#===================================
+num1 = ord(input())            #6030
+print(num1)
+
+#===================================
+num1 = int(input())            #6031
+print(chr(num1))
+
+#===================================
+num1 = int(input())            #6032
+print(-num1)
+
+#===================================
+num1 = ord(input())            #6033
+num1 += 1
+print(chr(num1))
+
+#===================================
+num1, num2 = input().split()   #6034
+num3 = int(num1) - int(num2)
+print(num3)
+
+#===================================
+num1, num2 = input().split()   #6035
+num3 = float(num1)*float(num2)
+print(num3)
