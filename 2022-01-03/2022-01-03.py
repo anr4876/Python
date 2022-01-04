@@ -109,6 +109,6 @@ while cnt < 10 :
     
 for i in range(1, 11, 1) :
     for num in range(1, 6, 1) :
-        print(num, end=" ", end=" ")
+        print(num, end=" ")
     print()
     
