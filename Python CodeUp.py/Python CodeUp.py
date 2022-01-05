@@ -192,3 +192,14 @@ num3 = int(num3)
 num4 = num1 + num2 + num3 
 
 print(num4, format(int(num4) / 3, ".2f"))
+
+#=======================================
+num1, num2 = input().split()       #6048
+num1 = int(num1)
+num2 = int(num2)
+if num1 < num2 :
+    print(num1 < num2)
+else :
+    print("False")
+    
+#========================================
