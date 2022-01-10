@@ -23,8 +23,7 @@ def solution(lottos, win_nums):
                     success_number += 1 # 민우의 로또 번호와 당첨 번호가 같은 개수
                 else :
                     pass
-    print(secret_number)
-    print(success_number)
+
     number1 = []
     number = 1
     while number <= len(win_nums) :
@@ -35,7 +34,7 @@ def solution(lottos, win_nums):
     
     
     number1.reverse()
-    print(number1)
+
     win_number = number1[success_number - 1]
             
     top_score = number1[success_number - 1 + secret_number]
