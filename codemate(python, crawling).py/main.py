@@ -19,3 +19,12 @@ for column in columns:
         title = webtoons[index].text
         print(f"{index+1}. {title}")
     print()
+    
+    
+    
+    
+    
+    
+    
+    
+    

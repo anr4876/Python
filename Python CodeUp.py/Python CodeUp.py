@@ -203,3 +203,14 @@ else :
     print("False")
     
 #========================================
+list1 = [[0 for i in range(20)]for i in range(20)] # 6095
+
+num = int(input())
+for i in range(num) :
+    x, y = input().split()
+    list1[int(x)][int(y)] = 1 
+        
+for i in range(20) :
+    for j in range(20) :
+        print(list1[i][j], end="")
+    print()
